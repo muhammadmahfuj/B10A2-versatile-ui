@@ -1,0 +1,23 @@
+.links-container{
+   /* flex-direction: column; */
+   /* align-items: ; */
+   position: fixed;
+   top: 0;
+   right: -100%;
+   z-index: 10;
+   width: 300px;
+   padding-bottom: 2rem;
+   background-color: green;
+   transition: .35s ease-in-out;
+}
+.link-items{
+   flex-direction: column;
+   margin-top: 2rem;
+   padding-left: 2rem;
+   align-items: flex-start;
+}
+.open-sidebar-btn, .close-sidebar-btn{
+   display: block;
+}
+#sidebar-active:checked ~ .links-container{
+   right: 0;}
