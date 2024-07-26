@@ -1,16 +1,4 @@
-@font-face {
-   font-family: "poppins";
-   src: url(../fonts/Poppins-Regular.ttf) format("ttf");
-   font-weight: normal;
-   font-style: normal;
-}
-
-@font-face {
-   font-family: "poppins";
-   src: url(../fonts/Poppins-Bold.ttf) format("ttf");
-   font-weight: bold;
-   font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 /* root */
 :root{
    --color-primary:#8A5CE5;
@@ -38,7 +26,7 @@ html {
 
 body{
    color: var(--color-body-text);
-   font-family: 'poppins', Arial, Helvetica, sans-serif;
+   font-family: "Inter", Arial, Helvetica, sans-serif;
    font-size: 1.6rem;
    line-height: 1.5;
    max-width: var(--max-width);
@@ -49,7 +37,7 @@ body{
 /* common styles */
 h1, h2, h3 {
    color: var(--color-titles);
-   font-weight: bold;
+   font-weight: 600;
 }
 h1, h2, h3, p {
    margin: 0;
@@ -113,7 +101,7 @@ li{
    padding: 1rem 2rem;
   }
   .logo-name{
-      font-weight: bold;
+      font-weight: 800;
       font-size: 3.5rem;
       font-style: italic;
       color: var(--color-accent);
@@ -125,6 +113,7 @@ li{
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
+
    }
    .hero-text{
       display: flex;
@@ -178,6 +167,15 @@ li{
       justify-content: center;
       align-items: center;
       gap: 1rem;
+   }
+   .gradient-bg{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 715px;
+      background-image: linear-gradient(to bottom, rgb(17, 17, 17, 100), rgb(119, 119, 119, 0));
+      z-index: -1;
    }
 /* main */
 /* footer */
