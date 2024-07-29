@@ -1,3 +1,18 @@
+:root{
+   --color-primary:#8A5CE5;
+   --color-accent: #e6533c;
+   /* used for button */
+   --color-titles: #ffffff;
+   --color-body-text: #808080;
+   --color-bg: #000000;
+   --color-bg-two: #222222;
+   --color-container: #393939;
+   --color-stroke: #323232;
+   --color-hover: #863428;
+   --max-width: 106rem;
+   --max-width-mobile: 500px; 
+}
+
 @media screen and (max-width: 576px) {
    h1 {
       font-size: 3.6rem;
@@ -9,12 +24,53 @@
       font-size: 1.8rem;
    }
    .container {
-      max-width: var(--max-width);
+      max-width: var(--max-width-mobile);
       margin-left: auto;
       margin-right: auto;
       padding-left: 0.5rem;
       padding-right: 0.5rem;
-      border: 1px solid red;
+      /* border: 1px solid red; */
+   }
+   .nav-heads{
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex: 1;
+      border: none;
+      border-radius: 0;
+      position: fixed;
+      gap: 2rem;
+      top: 5.5rem;
+      right: -100%;
+      z-index: 10;
+      width: 50vw;
+      height: 100vh;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0);
+      box-shadow: -5px 0 5px rgba(255, 255, 255, 0.25);
+      transition: .25s ease-in-out;
+   }
+   .home{
+      background-color: transparent;
+      border-radius: 0;
+      padding: 0;
+     }
+   .nav-items{
+      border-radius: 2rem;
+      padding: 1rem 2rem;
+     }
+   .nav-items:hover{
+      /* border-bottom: 1px solid var(--color-stroke); */
+      background-color: var(--color-accent);
+      /* border-radius: 2rem;
+      padding: 1rem 2rem; */
+   }
+   .open-sidebar-btn, .close-sidebar-btn{
+      display: block;
+      cursor: pointer;
+   }
+   #sidebar-active:checked ~ .nav-heads{
+      right: 0;
    }
    .hero{
       flex-direction: column;
@@ -24,6 +80,7 @@
 }
 
 @media screen and (min-width: 576px) and (max-width:992px){
+   
    .hero{
       flex-direction: column;
       justify-content: center;

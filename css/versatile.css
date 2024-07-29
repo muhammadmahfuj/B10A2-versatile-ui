@@ -12,7 +12,7 @@
    --color-stroke: #323232;
    --color-hover: #863428;
    --max-width: 106rem;
-   --max-width-mobile: 
+   /* --max-width-mobile:  */
 }
 *{
    box-sizing: border-box;
@@ -83,7 +83,7 @@ li{
    margin-right: auto;
    padding-left: 0.5rem;
    padding-right: 0.5rem;
-   border: 1px solid red;
+   /* border: 1px solid red; */
  }
 .btn{
    border-radius: 3rem;
@@ -115,19 +115,29 @@ li{
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   gap: 5rem;
+   gap: 3rem;
    border: 1px solid var(--color-stroke);
    border-radius: 3rem;
-   padding: 1.2rem 2.4rem 1.2rem 0.3rem ;
+   padding: 1.2rem 0.3rem 1.2rem 0.3rem ;
    color: var(--color-titles);
    margin: 0;
   }
-
-  .home{
-   background-color: var(--color-accent);
+  #sidebar-active, .open-sidebar-btn, .close-sidebar-btn{
+   display: none;
+  }
+  .nav-items{
    border-radius: 2rem;
    padding: 1rem 2rem;
   }
+  .nav-items:hover{
+   background-color: var(--color-accent);
+   
+  }
+  /* .home{
+   background-color: var(--color-accent);
+   border-radius: 2rem;
+   padding: 1rem 2rem;
+  } */
   .logo-name{
       font-weight: 800;
       font-size: 3.5rem;
