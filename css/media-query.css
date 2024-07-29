@@ -10,7 +10,7 @@
    --color-stroke: #323232;
    --color-hover: #863428;
    --max-width: 106rem;
-   --max-width-mobile: 500px; 
+   --max-width-mobile: 360px; 
 }
 
 @media screen and (max-width: 576px) {
