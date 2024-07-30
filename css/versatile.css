@@ -102,11 +102,20 @@ li{
    padding-right: 0.5rem;
    /* border: 1px solid red; */
  }
+/* .buttons{
+   display: flex;
+   gap: 1.4rem;
+} */
+ .hero-buttons{
+   display: flex;
+   gap: 1.4rem;
+ }
 .btn{
    border-radius: 3rem;
    font-weight: 600;
    font-size: 1.8rem;
    padding: 1.6rem 4.65rem;
+   width: 22.4rem;
    color: var(--color-titles);
    cursor: pointer;
 }
@@ -183,20 +192,19 @@ li{
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
-
    }
    .hero-text{
       display: flex;
       flex-direction: column;
       justify-content: center;
       gap: 2.8rem;
-      width: 50rem;
+      max-width: 50rem;
       max-height: 42.5rem;
       /* width: 100%; */
    }
    .hero-img{
-      max-height: 55rem;
-      max-width: 54rem;
+      max-height: 58rem;
+      max-width: 53.6rem;
       position: relative;
       /* overflow: hidden; */
    }
@@ -229,13 +237,6 @@ li{
    }
    .bc-type-two h2 {
       font-size: 2.4rem;
-   }
-   .red-shape{
-      background-color: var(--color-accent);
-      /* border: 1px solid red; */
-      height: 5rem;
-      width: 5rem;
-      border-radius: 50% 50% ;
    }
    .bc-text{
       display: flex;

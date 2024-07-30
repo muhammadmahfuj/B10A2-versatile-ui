@@ -16,6 +16,10 @@
 @media screen and (max-width: 576px) {
    h1 {
       font-size: 3.6rem;
+      line-height: 4.8rem;
+   }
+   .custom-font{
+      font-size:7.5rem;
    }
    h2{
       font-size: 3.2rem;
@@ -30,6 +34,9 @@
       padding-left: 0.5rem;
       padding-right: 0.5rem;
       /* border: 1px solid red; */
+   }
+   .navbar{
+      margin-bottom: 4.8rem;
    }
    .nav-heads{
       flex-direction: column;
@@ -72,11 +79,62 @@
    #sidebar-active:checked ~ .nav-heads{
       right: 0;
    }
+   
+   
+   .btn{
+      width: 17rem;
+      padding: 1.6rem 2.05rem;
+
+   }
+   .btn-club{
+      display: none;
+   }
    .hero{
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      gap: 4.8rem;
    }
+   .hero-text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 2.8rem;
+      max-width: 35.2rem;
+      max-height: 33.5rem;
+   }
+   .hero-img{
+      max-height: 58rem;
+      max-width: 35.3rem;
+      position: relative;
+   }
+   
+   .bc-type-one h2 {
+      font-size: 3.024rem;
+   }
+   .bc-type-two h2 {
+      font-size: 1.814rem;
+   }
+   .blur-container{
+      padding-left: 1.8rem;
+   }
+   .blur-container p{
+      font-size: 0.983rem;
+   }
+   .bc-type-one{
+      /* blur container = bc */ 
+         top: 5rem;
+         right: -1rem;
+         /* width: 19.3rem; */
+      }
+      .bc-type-two{
+         flex-direction: row;
+         top: 28rem;
+         right: 15rem;
+         width: 15.5rem;
+      }
+
+
    .habits{
       margin: 5rem 0;
    }
