@@ -444,6 +444,9 @@ li{
       left: 5rem;
     }
     /* BMI Calculator */
+    .bmi-calc-head{
+      margin: 8.8rem ;
+    }
     .bmi-calc{
       margin-bottom: 10rem;
       position: relative;
@@ -480,5 +483,5 @@ li{
       font-size: 1.6rem;
       color: var(--color-titles);
     }
-    
+
 /* footer */ 
