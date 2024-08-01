@@ -338,10 +338,6 @@ li{
     }
     
     .training-img-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
       position: relative;
     }
     .training-img-container::before {
@@ -435,6 +431,7 @@ li{
     
     .training-img-container:nth-child(5) p {
       top: 10rem;
+      left: 9rem;
     }
     
     .training-img-container:nth-child(6) p {
