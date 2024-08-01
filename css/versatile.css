@@ -312,7 +312,7 @@ li{
       margin-bottom: 10rem;
    }
    .run-extra-text{
-      max-width: 44.3rem;
+      width: 44.3rem;
       display: flex;
       flex-direction: column;
       gap: 2rem;
@@ -497,21 +497,30 @@ li{
       grid-auto-rows: 4.8rem;
    }
     .bmi-form input,
-    .bmi-form select,
-    .bmi-form::placeholder{
+    .bmi-form select{
       background-color: #343434;
-      color: #949494;
+      color: #A5A5A5;
       font-size: 1.6rem;
       border-radius: 8px;
       padding: 1rem 2rem;
       border: none;
     }
-   
+    .bmi-form input::placeholder{
+      background-color: #343434;
+      color: #A5A5A5;
+    }
+    /* input::placeholder{
+      color: red;
+    } */
     /* Style the dropdown menu */
-    .bmi-form select:last-of-type{
+    .bmi-form select{
       cursor: pointer;
     }
-  
+    /* select>option{
+      background-color: #343434;
+      color: #949494;
+    } */
+
 
     .height {
       grid-column: 1;
