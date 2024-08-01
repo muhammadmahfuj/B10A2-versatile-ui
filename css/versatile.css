@@ -127,6 +127,14 @@ li{
    background-color: var(--color-bg);
    border: 1px solid var(--color-stroke);
 }
+.section-head-mid{
+   text-align: center;
+   margin-bottom: 6rem;
+}
+.section-head-left{
+   text-align: left;
+   margin-bottom: 6rem;
+}
 /* header */
    /* navbar */
    .header{
@@ -264,10 +272,7 @@ li{
       align-items: center;
       gap: 4rem;
    }
-   .section-head{
-      text-align: center;
-      margin-bottom: 6rem;
-   }
+   
    .habits-container{
       width: 23rem;
       display: flex;
@@ -319,6 +324,6 @@ li{
       object-fit: cover;
       transform: scale(2.5) translate(-61px, 12%);
    }
-
+   
    /* Trainings and Exercises */
 /* footer */ 
