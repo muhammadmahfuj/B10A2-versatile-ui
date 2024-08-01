@@ -127,6 +127,9 @@ li{
    background-color: var(--color-bg);
    border: 1px solid var(--color-stroke);
 }
+.section-head p{
+   max-width: 67rem;
+}
 .section-head-mid{
    text-align: center;
    margin-bottom: 6rem;
@@ -135,6 +138,7 @@ li{
    text-align: left;
    margin-bottom: 6rem;
 }
+
 /* header */
    /* navbar */
    .header{
@@ -438,4 +442,6 @@ li{
       top: 12rem;
       left: 5rem;
     }
+    /* BMI Calculator */
+
 /* footer */ 
