@@ -118,6 +118,12 @@ li{
    width: 22.4rem;
    color: var(--color-titles);
    cursor: pointer;
+   transition: all 0.15s;
+}
+.btn:hover{
+   box-shadow:  0 0 10px var(--color-hover),
+   0 0 20px var(--color-hover),
+   0 0 30px var(--color-hover);;
 }
 .btn-primary{
    border: none;
@@ -181,6 +187,7 @@ li{
   .nav-items{
    border-radius: 2rem;
    padding: 1rem 2rem;
+   transition: background-color 0.25s;
   }
   .nav-items:hover{
    background-color: var(--color-accent);
@@ -445,7 +452,7 @@ li{
     /* BMI Calculator */
    
     .bmi-calc-head{
-      margin: 8.8rem ;
+      margin: 8.8rem 0;
     }
     .bmi-calc{
       margin-bottom: 10rem;
@@ -554,6 +561,59 @@ li{
       margin-top: 3.4rem;   
    }
     
-    
-
+    /* Meet our Team */
+   .our-team-content{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2,1fr);
+      overflow: hidden;
+      gap: 2rem;
+      padding: 2rem;
+      border-radius: 18px;
+      background-color: var(--color-bg-two);
+      margin-bottom: 10rem;
+   }
+   .our-team-img{
+      height:27rem;
+      width: 32.5rem;
+      border-radius: 18px;
+      overflow: hidden;
+      position:relative;
+      transition: all 0.35s;
+   }
+   .our-team-img:hover{
+      transform: scale(1.05);
+      box-shadow: 0 0 10px #863428,
+      0 0 20px #863428,
+      0 0 30px #863428;
+   }
+   .our-team-img img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      /* transform: scale(2.5) translate(-61px, 12%); */
+   }
+   .our-team-img::before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 20%); /* adjust the color and opacity to your liking */
+      z-index: 1;
+   }
+   .our-team-img h4,
+   .our-team-img p{
+      position: absolute;
+      z-index: 1;
+      left: 2rem;
+   }
+   .our-team-img h4{
+      bottom: 3.6rem;
+   }
+   .our-team-img p{
+      bottom: 1.6rem;
+   }
+   
 /* footer */ 
