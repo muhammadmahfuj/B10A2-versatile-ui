@@ -42,7 +42,7 @@
       align-items: flex-start;
       background-color: rgb(57, 57, 57, 0.1);
       backdrop-filter: blur(20px);
-      box-shadow: 0 10px 30px #863428;
+      box-shadow: 0 0 2px #f5e0dd;
       border-radius: 10px;
       border: none;
       font-size: 1.8rem;
