@@ -127,11 +127,11 @@
          right: -1rem;
          /* width: 19.3rem; */
       }
-      .bc-type-two{
-         flex-direction: row;
-         top: 28rem;
-         right: 15rem;
-         width: 15.5rem;
+   .bc-type-two{
+      flex-direction: row;
+      top: 28rem;
+      right: 15rem;
+      width: 15.5rem;
       }
 
 
@@ -141,7 +141,33 @@
    .habits-body{
       flex-direction: column;
    }
+   /* Run an extra mile */
+   .run-extra{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+      padding: 3rem 3rem;
+      border-radius: 1.8rem;
+      margin-bottom: 10rem;
+   }
+   .run-extra-text{
+      width: 28rem;
+   }
+   .run-extra-img{
+      width: 28rem;
+      height: 17rem;
+   }
+   .run-extra-text .btn{
+      width: 100%;
+   }
 }
+
+
+
+
+
+
 
 @media screen and (min-width: 576px) and (max-width:992px){
    
