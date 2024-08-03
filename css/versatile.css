@@ -138,6 +138,7 @@ li{
 }
 .section-head-left p{
    width: 57rem;
+   text-align: left;
 }
 .section-head-mid{
    text-align: center;
@@ -276,7 +277,7 @@ li{
 /* main */
    /* habits */
    .habits{
-      margin: 10rem 0;
+      margin: 60rem 0;
    }
    .habits-body{
       display: flex;
@@ -350,6 +351,7 @@ li{
     
     .training-img-container {
       position: relative;
+      overflow: hidden;
     }
     .training-img-container::before {
       content: "";
@@ -361,6 +363,7 @@ li{
     }
     
     .training-img-container img {
+      /* position: relative; */
       width: 100%;
       height: 100%;
       object-fit: cover;

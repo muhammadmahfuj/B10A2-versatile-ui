@@ -149,7 +149,7 @@
       gap: 3rem;
       padding: 3rem 3rem;
       border-radius: 1.8rem;
-      margin-bottom: 10rem;
+      margin-bottom: 6.5rem;
    }
    .run-extra-text{
       width: 28rem;
@@ -158,9 +158,73 @@
       width: 28rem;
       height: 17rem;
    }
+   .run-extra-img img{
+      transform: scale(1.5) translate(-30px, 15%);
+   }
    .run-extra-text .btn{
       width: 100%;
    }
+   .section-head-left p{
+      width: 33rem;
+      text-align: left;
+   }
+   /* training and exercise */
+   .training-exercise{
+      margin-bottom: 6.5rem;
+   }
+   .training-img-container img{
+      transform: scale(1.2);
+      transform-origin: center;
+      position: relative;
+      z-index: -1;
+   }
+   .training-grid {
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: 12.5rem;
+    }
+   .training-img-container:nth-child(3),
+   .training-img-container:nth-child(6){
+      display: none;
+    }
+    .training-img-container:nth-child(1) {
+      grid-column: span 1;
+    }
+    
+    .training-img-container:nth-child(2) {
+      grid-column: span 1;
+    }
+    
+    
+    .training-img-container:nth-child(4) {
+      grid-column: span 1;
+    }
+    
+    .training-img-container:nth-child(5) {
+      grid-column: span 1;
+    }
+    .training-img-container:nth-child(1) p {
+      top: 8rem;
+      left: 2rem;
+      color: var(--color-titles);
+    }
+    
+    .training-img-container:nth-child(2) p {
+      top: 3.5rem;
+      left: 3rem;
+    }
+    
+    .training-img-container:nth-child(4) p {
+      top: 8rem;
+      left: 2rem;
+    }
+    
+    .training-img-container:nth-child(5) p {
+      top: 8rem;
+      left: 2rem;
+    }
+
+    /* bmi calculator */
+    
 }
 
 
