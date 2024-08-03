@@ -170,7 +170,7 @@
    }
    /* training and exercise */
    .training-exercise{
-      margin-bottom: 6.5rem;
+      margin-bottom: 3rem;
    }
    .training-img-container img{
       transform: scale(1.2);
@@ -181,6 +181,8 @@
    .training-grid {
       grid-template-columns: repeat(2, 1fr);
       grid-auto-rows: 12.5rem;
+      margin-bottom: 3rem;
+
     }
    .training-img-container:nth-child(3),
    .training-img-container:nth-child(6){
@@ -224,7 +226,22 @@
     }
 
     /* bmi calculator */
-    
+    .bmi-calc{
+      margin-bottom: 6.5rem;
+    }
+    .bmi-calc-body{
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 4rem;
+    }
+    .bmi-form {
+      max-width: 35rem;
+      grid-template-columns: 50% 50%;
+      gap: 1.2rem;
+   }
+
+
 }
 
 
