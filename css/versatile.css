@@ -204,6 +204,7 @@ li{
       font-size: 3.5rem;
       font-style: italic;
       color: var(--color-accent);
+      cursor: pointer;
   }
 
    /* hero */
@@ -275,9 +276,9 @@ li{
    
 
 /* main */
-   /* habits */
+   /*change your habits */
    .habits{
-      margin: 60rem 0;
+      margin: 10rem 0;
    }
    .habits-body{
       display: flex;
@@ -300,12 +301,20 @@ li{
       border-radius: 50%;
       overflow: hidden;
       margin-bottom: 3rem;
+      transition: all 0.35s;
    }
    .habits__img img{
       width: 100%;
       height: 100%;
       object-fit: cover;
       border-radius: inherit;
+   }
+   .habits__img:hover{
+      transform: scale(1.1);
+      cursor: pointer;
+      /* box-shadow: 0 0 10px #863428,
+                  0 0 20px #863428,
+                  0 0 30px #863428; */
    }
 
    /* Run an extra mile */
@@ -330,12 +339,21 @@ li{
       height: 31.2rem;
       border-radius: 1.8rem;
       overflow: hidden;
+      transition: all 0.35s;
+      cursor: pointer;
    }
    .run-extra-img img{
       width: 100%;
       height: 100%;
       object-fit: cover;
       transform: scale(2.5) translate(-61px, 12%);
+   }
+   .run-extra-img:hover{
+      transform: scale(1.05);
+      cursor: pointer;
+      /* box-shadow: 0 0 10px #863428,
+                  0 0 20px #863428,
+                  0 0 30px #863428; */
    }
    
    /* Trainings and Exercises */
@@ -348,12 +366,21 @@ li{
       grid-auto-rows: 20rem;
       overflow: hidden;
       margin-bottom: 10rem;
+
     }
     
     .training-img-container {
       position: relative;
       overflow: hidden;
+      transition: all 0.35s;
+      cursor: pointer;
     }
+    .training-img-container:hover{
+      transform: scale(1.05);
+      /* box-shadow: 0 0 10px #863428,
+      0 0 20px #863428,
+      0 0 30px #863428; */
+   }
     .training-img-container::before {
       content: "";
       position: absolute;
@@ -582,9 +609,9 @@ li{
    }
    .our-team-img:hover{
       transform: scale(1.05);
-      box-shadow: 0 0 10px #863428,
+      /* box-shadow: 0 0 10px #863428,
       0 0 20px #863428,
-      0 0 30px #863428;
+      0 0 30px #863428; */
    }
    .our-team-img img{
       width: 100%;
