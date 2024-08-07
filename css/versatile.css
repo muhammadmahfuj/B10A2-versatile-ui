@@ -79,7 +79,7 @@ h3{
    font-size: 2.8rem;
 }
 h4{
-   font-size: 1.8rem;
+   font-size: 2rem;
    margin-bottom: 0.6rem;
 }
 a{
@@ -145,8 +145,11 @@ li{
    text-align: left;
 }
 .section-head-mid{
+   width: 67rem;
    text-align: center;
    margin-bottom: 6rem;
+   margin-left: auto;
+   margin-right: auto;
 }
 .section-head-left{
    text-align: left;
@@ -641,6 +644,33 @@ li{
    }
    .our-team-img p{
       bottom: 1.6rem;
+   }
+
+   /* Trusted by experts */
+   .review{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap:3rem;
+      margin-bottom: 10rem;
+   }
+   .star-rating{
+      color: var(--color-titles);
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+   }
+   .review-container{
+      max-width: 32.5rem;
+      height: 30rem;
+      padding: 2rem;
+      text-align: left;
+      border-radius: 1.8rem;
+      background: linear-gradient(0deg, hsla(8, 77%, 57%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+      /* background-color: red; */
+   }
+   .review-container p{
+      color: var(--color-bg-two);
    }
    
 /* footer */ 
