@@ -35,6 +35,9 @@
       padding-right: 0.5rem;
       /* border: 1px solid red; */
    }
+   .section-head-mid{
+      width: 32rem;
+   }
    .navbar{
       margin-bottom: 4.8rem;
    }
@@ -255,6 +258,12 @@
       margin-bottom: 6.5rem;
       justify-content: center;
    }
+   /* Trusted by experts */
+   .review{
+      flex-direction: column;
+      
+   }
+
    /* footer */
    .footer-body{
       flex-direction: column;
