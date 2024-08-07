@@ -253,7 +253,7 @@ li{
    /* blur container = bc */ 
       top: 11rem;
       right: -5rem;
-      /* width: 19.3rem; */
+      width: 19rem;
    }
    .bc-type-one h2 {
       font-size: 4rem;
@@ -262,7 +262,6 @@ li{
       top: 40rem;
       right: 27rem;
       width: 20.6rem;
-      height: 10rem;
       justify-content: center;
    }
    .bc-type-two h2 {
@@ -668,11 +667,17 @@ li{
       border-radius: 1.8rem;
       background: linear-gradient(0deg, hsla(8, 77%, 57%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
       /* background-color: red; */
+      transition: all 0.32s;
    }
    .review-container p{
       color: var(--color-bg-two);
    }
-   
+   .review-container:hover{
+      transform: scale(1.05);
+      box-shadow: 0 0 10px #863428,
+      0 0 20px #863428,
+      0 0 30px #863428;
+   }
 /* footer */ 
 .footer{
    padding-top: 6.6rem;
